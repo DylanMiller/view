@@ -14,6 +14,6 @@
          <input type="password" name="password" />
     </div>
     <div>
-        <buton type="submit">Submit</buton>
+        <button type="submit">Submit</button>
     </div>
 </form>
