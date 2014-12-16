@@ -3,7 +3,7 @@
         require_once(__DIR__ . "/../controller/login-verify.php");
         
         if(!authenticateUser()) {
-            header("Login: " . $path . "index.php");
+            header("Location: " . $path . "index.php");
             die();
         }
 ?>
